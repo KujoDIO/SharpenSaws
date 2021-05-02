@@ -117,3 +117,6 @@ alias grep='grep --color=auto'
 function grepc(){
 	grep -r --include=*.{cc,h} $1 $2
 }
+
+# 加载本机定制的命令
+source ./.local_sh
