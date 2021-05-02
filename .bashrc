@@ -111,12 +111,6 @@ EDITOR=vim
 #change to gcc 8
 alias enable_gcc8='scl enable devtoolset-8 -- bash'
 
-# squid代理
-# https://docs.corp.kuaishou.com/k/home/VFJEZSX6_GTk/fcADIyegUd8U9y93Sa2-Pv84S#
-alias fq='http_proxy=http://10.74.176.8:11080 https_proxy=http://10.74.176.8:11080 HTTP_PROXY=http://10.74.176.8:11080 HTTPS_PROXY=http://10.74.176.8:11080'
-alias fq2='http_proxy=http://10.74.176.16:11080 https_proxy=http://10.74.176.16:11080 HTTPS_PROXY=http://10.74.176.16:11080 HTTPS_PROXY=http://10.74.176.16:11080'
-alias bufq='unset https_proxy http_proxy HTTPS_PROXY HTTP_PROXY'
-
 # grep settings
 alias grep='grep --color=auto'
 
