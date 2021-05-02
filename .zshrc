@@ -104,3 +104,6 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 
 export ML_PATH="$HOME/ml"
+
+# 加载本机定制的命令
+source ./.local_sh
