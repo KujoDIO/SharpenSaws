@@ -1,0 +1,10 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[push]
+	default = simple
+[user]
+	email = zhaobing@kuaishou.com
+	name = zhaobing
