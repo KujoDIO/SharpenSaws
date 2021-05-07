@@ -3,6 +3,7 @@
 	br = branch
 	ci = commit
 	st = status
+	prb = pull --rebase
 [push]
 	default = simple
 [user]
