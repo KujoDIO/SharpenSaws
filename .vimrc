@@ -58,7 +58,7 @@ set hlsearch
 set tags=./tags,tags;
 " 更新tags。安装Git hooks更方便，等摸索清楚再说吧
 " Effortless Ctags with Git
-:nnoremap <f5> :!cd ~/ws/se/ && ctags -R --languages=c,c++,python<CR>
+:nnoremap <f5> :!cd ~/ws/se/ && ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++<CR>
 
 " Disable audible bell because it's annoying.
 set noerrorbells visualbell t_vb=
