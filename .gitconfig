@@ -11,3 +11,5 @@
 [user]
 	email = zhaobing@kuaishou.com
 	name = zhaobing
+[color]
+	ui = auto
