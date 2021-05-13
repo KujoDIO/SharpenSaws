@@ -56,9 +56,18 @@ set relativenumber
 set statusline=%f\ %=%l,%c\ %p%%
 set hlsearch
 set tags=./tags,tags;
+set tags+=~/ws/ks/tags
 " 更新tags。安装Git hooks更方便，等摸索清楚再说吧
 " Effortless Ctags with Git
 :nnoremap <f5> :!cd ~/ws/se/ && ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++<CR>
+" 将一个tab改为4个spaces
+" https://stackoverflow.com/a/234578
+" show existing tab with 4 spaces width
+set tabstop=2
+" " when indenting with '>', use 4 spaces width
+set shiftwidth=2
+" " On pressing tab, insert 4 spaces
+set expandtab
 
 " Disable audible bell because it's annoying.
 set noerrorbells visualbell t_vb=
