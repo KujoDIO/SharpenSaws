@@ -10,8 +10,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 " Plugin 'ycm-core/YouCompleteMe'
-" Plugin 'junegunn/fzf'
 " Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " Plugin 'file:///home/zhaobing/vim_bundle/YouCompleteMe'
