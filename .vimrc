@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
+Plugin 'tpope/vim-fugitive'
 " Plugin 'ycm-core/YouCompleteMe'
 " Plugin 'octol/vim-cpp-enhanced-highlight'
 
