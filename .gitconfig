@@ -9,8 +9,5 @@
 	lg = log
 [push]
 	default = simple
-[user]
-	email = zhaobing@kuaishou.com
-	name = zhaobing
 [color]
 	ui = auto
