@@ -68,6 +68,8 @@ set tags+=~/ws/ks/tags
 set tabstop=2
 " " when indenting with '>', use 4 spaces width
 set shiftwidth=2
+" https://vi.stackexchange.com/a/4175/29968
+set softtabstop=2
 " " On pressing tab, insert 4 spaces
 set expandtab
 
@@ -92,6 +94,9 @@ set incsearch
 " Unbind some useless/annoying default key bindings.
 nmap Q <Nop> 
 " 'Q' in normal mode enters Ex mode. You almost never want this.
+
+"automatically read changed file again.
+set autoread
 
 " zz from https://superuser.com/a/614424
 " 需要学会vimscript读懂它并将其放到其他文件里，像Plugin一样
@@ -165,3 +170,5 @@ function MyTabLine()
         endif
         return s
 endfunction
+
+
